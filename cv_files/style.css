@@ -3,6 +3,8 @@ body,
 *:before,
 *:after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
   font-size: 14px;
@@ -28,7 +30,7 @@ header {
 
   background: linear-gradient(to right, #494f4f, gray);
   background-color: #494f4f;
-  border-bottom: 5px solid #f11833;
+  
 }
 @media screen and (min-width: 600px) {
   main {
@@ -45,12 +47,12 @@ header {
   .col_left {
     order: 1;
 
-    background-color: #f11833;
+    
   }
   header div {
     margin-right: 10px!important;
     margin-left: 10px!important;
-    background-color: #f11833;
+    
 
   }
 }
@@ -65,7 +67,7 @@ main {
   /*width: fit-content;*/
   min-width: 300px;
 
-  border: 1px solid royalblue ;
+  
 }
 .col_right {
   order: 1;
@@ -74,10 +76,10 @@ main {
     /*flex: 4;*/
   padding: 20px;
 
-  border: 1px solid royalblue ;
+  
 }
 h2 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 10px;
 
   font-weight: 600;
@@ -96,7 +98,7 @@ li {
 
   list-style: none;
 
-  border: 1px solid red;
+  
 }
 
 
@@ -127,9 +129,10 @@ h1 {
 h1 + p {
   font-size: 20px;
   color: #6997a6;
+  
 }
 section:nth-of-type(n+2) h2 {
-  margin-top: 10px;
+  margin-top: 20px;
 
   
 }
@@ -197,7 +200,8 @@ b {
   text-decoration: none;
 }
 .col_left a:hover {
-  color: #6997a6;
+  color: black;
+  text-decoration: underline;
 }
 .col_left dl {
   display: flex;
@@ -206,9 +210,8 @@ b {
 }
 .col_left dt {
   width: 80px;
-
   font-weight: 900;
-  font-size: 16px;
+  font-size: 14px;
 }
 .hobbies li {
   list-style-position: inside;
@@ -221,6 +224,7 @@ b {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+  margin-bottom: 20px;
   
 }
 
@@ -229,6 +233,7 @@ b {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+  margin-bottom: 20px;
   
 }
 
@@ -237,21 +242,26 @@ b {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+  margin-bottom: 20px;
   
 }
 
+.skills li ul li {
+  margin-bottom: 10px;
+}
+
 .education li p {
-  background-color: rgb(0, 217, 255);
+  line-height: 20px;
   margin-left: 20px;
 }
 
 .experience li p {
-  background-color: rgb(0, 217, 255);
+  line-height: 20px;
   margin-left: 20px;
 }
 
 .skills li p {
-  background-color: rgb(0, 217, 255);
+  
   margin-left: 20px;
 }
 
@@ -271,11 +281,15 @@ b {
 
 .skills li span {
   
-  font-weight: 700;
-  line-height: 16px;
-  width: 100px;
-  min-width: 100px;
-  /*flex-basis: 200px;*/
+font-weight: 900;
+  
+line-height: 16px;
+  
+width: 100px;
+  
+min-width: 100px;
+  
+/*flex-basis: 200px;*/
 }
 
 .ss {
@@ -306,4 +320,14 @@ b {
   width: 500px;
   background-color: darkslateblue
   height: 500px;
+}
+
+.col_right a {
+  color: #838788;
+  font-weight: 700;
+  text-decoration: none;
+}
+.col_right a:hover {
+  color: black;
+  font-weight: 700;
 }
