@@ -216,27 +216,66 @@ b {
 }
 
 
-.education li {
+.education  li {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   
 }
-.education li span {
-  
-  background-color: rgb(255, 0, 119);
+
+.experience  li {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   
 }
+
+.skills  li {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+}
+
 .education li p {
   background-color: rgb(0, 217, 255);
-  margin-left: 120px;
+  margin-left: 20px;
 }
+
+.experience li p {
+  background-color: rgb(0, 217, 255);
+  margin-left: 20px;
+}
+
+.skills li p {
+  background-color: rgb(0, 217, 255);
+  margin-left: 20px;
+}
+
 .education li span {
-  background-color: rgb(255, 0, 119);
   
+  font-weight: 700;
+  width: 100px;
+  min-width: 100px;
+}
+
+.experience li span {
   
-  min-width: 120px;
+  font-weight: 700;
+  width: 100px;
+  min-width: 100px;
+}
+
+.skills li span {
+  
+  font-weight: 700;
+  line-height: 16px;
+  width: 100px;
+  min-width: 100px;
+  /*flex-basis: 200px;*/
 }
 
 .ss {
