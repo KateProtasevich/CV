@@ -1,2 +1,3 @@
 # CV
-https://github.com/KateProtasevich/CV.git
+
+https://kateprotasevich.github.io/CV/
