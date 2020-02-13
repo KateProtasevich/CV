@@ -1,0 +1,266 @@
+body,
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+}
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+
+  color: #838788;
+  
+}
+img {
+  width: 200px;
+  height: 200px;
+  margin: 20px 0 20px 20px;
+
+  border-radius: 50%;
+}
+header {
+  display: flex;
+  flex-direction: row;
+
+  background: linear-gradient(to right, #494f4f, gray);
+  background-color: #494f4f;
+  border-bottom: 5px solid #f11833;
+}
+@media screen and (min-width: 600px) {
+  main {
+    display: flex;
+  }
+}
+@media  (max-width: 600px) {
+  .col_right {
+    order: 0;
+  }
+  .col_left {
+    order: 1;
+
+    background-color: #f11833;
+  }
+  header div {
+    margin-right: 10px!important;
+    margin-left: 10px!important;
+    background-color: #f11833;
+
+  }
+}
+main {
+  flex-direction: row;
+}
+
+.col_left {
+/*flex: 1;*/
+  order: 0;
+  padding: 20px;
+  /*width: fit-content;*/
+
+  border: 1px solid royalblue ;
+}
+.col_right {
+  order: 1;
+
+/*width: 67%;
+    /*flex: 4;*/
+  padding: 20px;
+
+  border: 1px solid royalblue ;
+}
+h2 {
+  margin-bottom: 10px;
+  padding: 10px;
+
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+
+  background: linear-gradient(to right, #437483, #9fb2b8);
+  background-color: #6997a6;
+  border-radius: 3%;
+}
+
+
+
+li {
+  margin-bottom: 5px;
+
+  list-style: none;
+
+  border: 1px solid red;
+}
+
+
+.col_left {
+  flex-basis: content;
+}   
+ul {
+  margin-left: 0;
+}
+h1,
+h2 {
+  text-transform: uppercase;
+}
+header {
+  align-items: center;
+}
+header div {
+  margin-left: 10%;
+}
+h1 {
+  margin-bottom: 5px;
+
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+  text-shadow: 3px 3px 3px #6997a6;
+}
+h1 + p {
+  font-size: 20px;
+  color: #6997a6;
+}
+section:nth-of-type(n+2) h2 {
+  margin-top: 10px;
+
+  
+}
+b {
+  width: 50px;
+
+  font-weight: bold;
+}
+.contact li:first-child {
+  padding-left: 25px;
+
+  font-size: 14px;
+
+  background-image: url(phone.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+}
+.contact li:nth-of-type(2) {
+  padding-left: 25px;
+
+  font-size: 14px;
+
+  background-image: url(mail.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+}
+.contact li:nth-of-type(3) {
+  padding-left: 25px;
+
+  font-size: 14px;
+
+  background-image: url(skype.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+}
+.contact li:nth-of-type(4) {
+  padding-left: 25px;
+
+  font-size: 14px;
+
+  background-image: url(github.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+}
+.contact li:nth-of-type(5) {
+  margin-bottom: 0;
+  padding-left: 25px;
+
+  font-size: 14px;
+
+  background-image: url(location.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+}
+.contact ul {
+  line-height: 20px;
+}
+.col_left a {
+  color: #838788;
+  text-decoration: none;
+}
+.col_left a:hover {
+  color: #6997a6;
+}
+.col_left dl {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.col_left dt {
+  width: 80px;
+
+  font-weight: 900;
+  font-size: 16px;
+}
+.hobbies li {
+  list-style-position: inside;
+  list-style-type: circle;
+}
+
+
+.education li {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+}
+.education li span {
+  
+  background-color: rgb(255, 0, 119);
+  
+}
+.education li p {
+  background-color: rgb(0, 217, 255);
+  margin-left: 120px;
+}
+.education li span {
+  background-color: rgb(255, 0, 119);
+  
+  
+  min-width: 120px;
+}
+
+.ss {
+  background-color: crimson;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+}
+.ss  .aaa {
+  background-color: rgb(255, 0, 119);
+  width: 120px!important;
+  flex-basis: 120px;
+}
+
+.experience dl {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.experience dt {
+  width: 100px;
+  background-color: darkorchid;
+}
+.a1 {
+  width: 500px;
+  background-color: darkslateblue
+  height: 500px;
+}
