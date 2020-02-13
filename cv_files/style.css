@@ -58,6 +58,7 @@ header {
 }
 main {
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .col_left {
